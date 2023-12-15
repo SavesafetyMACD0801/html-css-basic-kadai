@@ -1,0 +1,48 @@
+
+html{
+  font-size: 20px;
+  /* ルートのフォントサイズを20pxに */
+}
+body{
+  font-family: "Arial","Meiryo",sans-serif;
+  text-align: center;
+  font-size : 1rem;
+  /* body内を仕様どおりに設定。また、本文内のフォントサイズはブラウザによって
+  　　一定にしたいので1remに設定。 */
+}
+
+.title1{    /*headタグ内のタイトルの装飾*/
+    text-shadow: 2px 2px 4px gray;
+    font-size: 2rem;
+    line-height: 0%;
+    border-bottom: 3px solid rgb(115, 115, 114);
+    
+}
+.space{
+  line-height: 100%;
+  /* headが実際の課題のレイアウトと若干異なる為微調整の為設定 */
+}
+.google-fonts{/*headタグ内（h1)の文字と、文字間の設定*/
+  font-family: "Josefin Sans",sans-serif;
+  letter-spacing: 1.2em;
+}
+
+/* 本文の装飾 */
+#basic >div{
+  font-weight: bold;
+  /* <body>タグ内を<div =id ="basic>で親とし、CSS内では#basicでID登録。
+  　　また、#basic >divとし、子要素となるdivを太字に設定。 
+      直下の子要素のみに適用させたい場合は、#basic > divとする。これで孫には適用されない。
+      */
+  
+}
+
+/* カラーの割り当て */
+.skyblue{
+  color: skyblue;
+}
+
+.pink{
+  color:rgb(255, 192, 203) ;
+}
+

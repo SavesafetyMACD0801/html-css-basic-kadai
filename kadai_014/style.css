@@ -14,14 +14,10 @@ body{
 .title1{    /*headタグ内のタイトルの装飾*/
     text-shadow: 2px 2px 4px gray;
     font-size: 2rem;
-    line-height: 0%;
     border-bottom: 3px solid rgb(115, 115, 114);
     
 }
-.space{
-  line-height: 100%;
-  /* headが実際の課題のレイアウトと若干異なる為微調整の為設定 */
-}
+
 .google-fonts{/*headタグ内（h1)の文字と、文字間の設定*/
   font-family: "Josefin Sans",sans-serif;
   letter-spacing: 1.2em;

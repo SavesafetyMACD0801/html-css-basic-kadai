@@ -24,7 +24,7 @@ body{
 }
 
 /* 本文の装飾 */
-#basic >div{
+#basic > p{
   font-weight: bold;
   /* <body>タグ内を<div =id ="basic>で親とし、CSS内では#basicでID登録。
   　　また、#basic >divとし、子要素となるdivを太字に設定。 
